@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" prefHeight="549.0" prefWidth="1470.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GasStation.SimulationController">
+   <children>
+      <Group fx:id="group1" layoutX="14.0" layoutY="4.0">
+         <children>
+            <Label text="Samochód 1" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel1" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status1" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group2" layoutX="14.0" layoutY="94.0">
+         <children>
+            <Label text="Samochód 2" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel2" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status2" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group3" layoutX="14.0" layoutY="184.0">
+         <children>
+            <Label text="Samochód 3" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel3" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status3" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group4" layoutX="14.0" layoutY="274.0">
+         <children>
+            <Label text="Samochód 4" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel4" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status4" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group5" layoutX="14.0" layoutY="364.0">
+         <children>
+            <Label text="Samochód 5" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel5" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status5" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group6" layoutX="212.0" layoutY="4.0">
+         <children>
+            <Label text="Samochód 6" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel6" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status6" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group7" layoutX="212.0" layoutY="94.0">
+         <children>
+            <Label text="Samochód 7" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel7" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status7" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group8" layoutX="212.0" layoutY="184.0">
+         <children>
+            <Label text="Samochód 8" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel8" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status8" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group9" layoutX="212.0" layoutY="274.0">
+         <children>
+            <Label text="Samochód 9" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel9" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status9" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group10" layoutX="212.0" layoutY="364.0">
+         <children>
+            <Label text="Samochód 10" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel10" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status10" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group11" layoutX="420.0" layoutY="4.0">
+         <children>
+            <Label text="Samochód 11" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel11" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status11" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group12" layoutX="420.0" layoutY="94.0">
+         <children>
+            <Label text="Samochód 12" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel12" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status12" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group13" layoutX="420.0" layoutY="184.0">
+         <children>
+            <Label text="Samochód 13" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel13" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status13" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group14" layoutX="420.0" layoutY="274.0">
+         <children>
+            <Label text="Samochód 14" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel14" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status14" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group15" layoutX="420.0" layoutY="364.0">
+         <children>
+            <Label text="Samochód 15" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel15" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status15" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group16" layoutX="628.0" layoutY="4.0">
+         <children>
+            <Label text="Samochód 16" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel16" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status16" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group17" layoutX="628.0" layoutY="94.0">
+         <children>
+            <Label text="Samochód 17" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel17" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status17" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group18" layoutX="628.0" layoutY="184.0">
+         <children>
+            <Label text="Samochód 18" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel18" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status18" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group19" layoutX="628.0" layoutY="274.0">
+         <children>
+            <Label text="Samochód 19" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel19" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status19" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="group20" layoutX="628.0" layoutY="364.0">
+         <children>
+            <Label text="Samochód 20" />
+            <Label layoutY="21.0" text="Poziom paliwa:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fuel20" editable="false" layoutX="93.0" layoutY="14.0" prefHeight="30.0" prefWidth="40.0" />
+            <TextField fx:id="status20" editable="false" layoutX="93.0" layoutY="52.0" prefHeight="31.0" prefWidth="79.0" />
+            <Label layoutX="41.0" layoutY="59.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump1" layoutX="900.0" layoutY="4.0">
+         <children>
+            <Label text="Dystrybutor 1" />
+            <TextField fx:id="pumpStatus1" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump2" layoutX="900.0" layoutY="99.0">
+         <children>
+            <Label text="Dystrybutor 2" />
+            <TextField fx:id="pumpStatus2" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump3" layoutX="900.0" layoutY="194.0">
+         <children>
+            <Label text="Dystrybutor 3" />
+            <TextField fx:id="pumpStatus3" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump4" layoutX="900.0" layoutY="289.0">
+         <children>
+            <Label text="Dystrybutor 4" />
+            <TextField fx:id="pumpStatus4" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump5" layoutX="900.0" layoutY="384.0">
+         <children>
+            <Label text="Dystrybutor 5" />
+            <TextField fx:id="pumpStatus5" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump6" layoutX="1200.0" layoutY="4.0">
+         <children>
+            <Label text="Dystrybutor 6" />
+            <TextField fx:id="pumpStatus6" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump7" layoutX="1200.0" layoutY="99.0">
+         <children>
+            <Label text="Dystrybutor 7" />
+            <TextField fx:id="pumpStatus7" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump8" layoutX="1200.0" layoutY="194.0">
+         <children>
+            <Label text="Dystrybutor 8" />
+            <TextField fx:id="pumpStatus8" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump9" layoutX="1200.0" layoutY="289.0">
+         <children>
+            <Label text="Dystrybutor 9" />
+            <TextField fx:id="pumpStatus9" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="groupPump10" layoutX="1200.0" layoutY="384.0">
+         <children>
+            <Label text="Dystrybutor 10" />
+            <TextField fx:id="pumpStatus10" editable="false" layoutX="47.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label layoutY="33.0" text="Status:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Label layoutX="14.0" layoutY="457.0" text="Kolejka do tankowania" />
+      <TextField fx:id="queue" layoutX="14.0" layoutY="493.0" prefHeight="31.0" prefWidth="500.0" />
+   </children>
+</Pane>
